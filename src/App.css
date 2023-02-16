@@ -1,0 +1,40 @@
+#root {
+  max-width: 80ch;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.card {
+  padding: 2em;
+}
+
+.on {
+  fill: "white";
+  animation: colorChange 1500ms linear;
+}
+
+.off {
+  fill: "black";
+  animation: colorChange 1500ms reverse;
+}
+
+@keyframes colorChange {
+  0% {fill: "white"}
+  100% {fill: "black"}
+}
+
+datalist {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 400px;
+}
+
+option {
+  padding: 0;
+}
+
+input[type="range"] {
+  width: 400px;
+  margin: 0;
+}
