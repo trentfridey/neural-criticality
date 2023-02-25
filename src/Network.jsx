@@ -42,10 +42,10 @@ export default function Network({ sigma }) {
 
   const numConnections = 3;
 
-  const messages = useMemo(() => genMessages(4), [])
+  const {inputMessages} = useMemo(() => genMessages(4), [])
 
   const simulate = (sigma) => {
-    const message = messages.at(Math.floor(messages.length * Math.random()));
+    const message = inputMessages.at(Math.floor(inputMessages.length * Math.random()));
     setPassedMessage(message);
     setAnimatedValues(() => initialNetwork);
     const updatedNetwork = run(message, numConnections, sigma);
@@ -102,7 +102,7 @@ export default function Network({ sigma }) {
 
   return (
     <>
-      <button onClick={handleClick} disabled={isRunning}>
+      <button onClick={handleClick} disabled={animating}>
         {"Send message"}
       </button>
       <div
@@ -136,7 +136,7 @@ export default function Network({ sigma }) {
                       fill="freeze"
                       ref={(el) => (circleElem.current[l][n] = el)}
                       values="#1a1a1a;#646cff;#1a1a1a"
-                      attributeName="stroke"
+                      attributeName="fill"
                       dur={`${delay * 2}s`}
                       calcMode={"paced"}
                       repeatCount={1}
@@ -154,7 +154,7 @@ export default function Network({ sigma }) {
                       begin="indefinte"
                       fill="freeze"
                       ref={(el) => (textElem.current[l][n] = el)}
-                      values="white;#646cff;white"
+                      values="white;#1a1a1a;white"
                       attributeName="fill"
                       dur={`${delay * 2}s`}
                       repeatCount={1}

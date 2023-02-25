@@ -1,0 +1,1037 @@
+[
+  {
+    "input": "1",
+    "bins": [
+      {
+        "output": "1",
+        "frequency": 280
+      },
+      {
+        "output": "2",
+        "frequency": 36
+      },
+      {
+        "output": "3",
+        "frequency": 32
+      },
+      {
+        "output": "4",
+        "frequency": 38
+      },
+      {
+        "output": "5",
+        "frequency": 54
+      },
+      {
+        "output": "6",
+        "frequency": 46
+      },
+      {
+        "output": "7",
+        "frequency": 36
+      },
+      {
+        "output": "8",
+        "frequency": 34
+      },
+      {
+        "output": "9",
+        "frequency": 28
+      },
+      {
+        "output": "10",
+        "frequency": 40
+      },
+      {
+        "output": "11",
+        "frequency": 14
+      },
+      {
+        "output": "12",
+        "frequency": 40
+      },
+      {
+        "output": "13",
+        "frequency": 56
+      },
+      {
+        "output": "14",
+        "frequency": 56
+      },
+      {
+        "output": "15",
+        "frequency": 46
+      },
+      {
+        "output": "16",
+        "frequency": 70
+      }
+    ]
+  },
+  {
+    "input": "2",
+    "bins": [
+      {
+        "output": "1",
+        "frequency": 292
+      },
+      {
+        "output": "2",
+        "frequency": 30
+      },
+      {
+        "output": "3",
+        "frequency": 48
+      },
+      {
+        "output": "4",
+        "frequency": 28
+      },
+      {
+        "output": "5",
+        "frequency": 38
+      },
+      {
+        "output": "6",
+        "frequency": 40
+      },
+      {
+        "output": "7",
+        "frequency": 56
+      },
+      {
+        "output": "8",
+        "frequency": 32
+      },
+      {
+        "output": "9",
+        "frequency": 40
+      },
+      {
+        "output": "10",
+        "frequency": 36
+      },
+      {
+        "output": "11",
+        "frequency": 42
+      },
+      {
+        "output": "12",
+        "frequency": 68
+      },
+      {
+        "output": "13",
+        "frequency": 56
+      },
+      {
+        "output": "14",
+        "frequency": 28
+      },
+      {
+        "output": "15",
+        "frequency": 40
+      },
+      {
+        "output": "16",
+        "frequency": 48
+      }
+    ]
+  },
+  {
+    "input": "3",
+    "bins": [
+      {
+        "output": "1",
+        "frequency": 280
+      },
+      {
+        "output": "2",
+        "frequency": 26
+      },
+      {
+        "output": "3",
+        "frequency": 38
+      },
+      {
+        "output": "4",
+        "frequency": 26
+      },
+      {
+        "output": "5",
+        "frequency": 30
+      },
+      {
+        "output": "6",
+        "frequency": 34
+      },
+      {
+        "output": "7",
+        "frequency": 34
+      },
+      {
+        "output": "8",
+        "frequency": 52
+      },
+      {
+        "output": "9",
+        "frequency": 32
+      },
+      {
+        "output": "10",
+        "frequency": 44
+      },
+      {
+        "output": "11",
+        "frequency": 46
+      },
+      {
+        "output": "12",
+        "frequency": 36
+      },
+      {
+        "output": "13",
+        "frequency": 38
+      },
+      {
+        "output": "14",
+        "frequency": 46
+      },
+      {
+        "output": "15",
+        "frequency": 52
+      },
+      {
+        "output": "16",
+        "frequency": 50
+      }
+    ]
+  },
+  {
+    "input": "4",
+    "bins": [
+      {
+        "output": "1",
+        "frequency": 330
+      },
+      {
+        "output": "2",
+        "frequency": 30
+      },
+      {
+        "output": "3",
+        "frequency": 42
+      },
+      {
+        "output": "4",
+        "frequency": 36
+      },
+      {
+        "output": "5",
+        "frequency": 22
+      },
+      {
+        "output": "6",
+        "frequency": 28
+      },
+      {
+        "output": "7",
+        "frequency": 34
+      },
+      {
+        "output": "8",
+        "frequency": 34
+      },
+      {
+        "output": "9",
+        "frequency": 44
+      },
+      {
+        "output": "10",
+        "frequency": 40
+      },
+      {
+        "output": "11",
+        "frequency": 50
+      },
+      {
+        "output": "12",
+        "frequency": 58
+      },
+      {
+        "output": "13",
+        "frequency": 52
+      },
+      {
+        "output": "14",
+        "frequency": 42
+      },
+      {
+        "output": "15",
+        "frequency": 48
+      },
+      {
+        "output": "16",
+        "frequency": 64
+      }
+    ]
+  },
+  {
+    "input": "5",
+    "bins": [
+      {
+        "output": "1",
+        "frequency": 108
+      },
+      {
+        "output": "2",
+        "frequency": 42
+      },
+      {
+        "output": "3",
+        "frequency": 30
+      },
+      {
+        "output": "4",
+        "frequency": 22
+      },
+      {
+        "output": "5",
+        "frequency": 30
+      },
+      {
+        "output": "6",
+        "frequency": 50
+      },
+      {
+        "output": "7",
+        "frequency": 44
+      },
+      {
+        "output": "8",
+        "frequency": 42
+      },
+      {
+        "output": "9",
+        "frequency": 30
+      },
+      {
+        "output": "10",
+        "frequency": 44
+      },
+      {
+        "output": "11",
+        "frequency": 38
+      },
+      {
+        "output": "12",
+        "frequency": 50
+      },
+      {
+        "output": "13",
+        "frequency": 52
+      },
+      {
+        "output": "14",
+        "frequency": 78
+      },
+      {
+        "output": "15",
+        "frequency": 64
+      },
+      {
+        "output": "16",
+        "frequency": 100
+      }
+    ]
+  },
+  {
+    "input": "6",
+    "bins": [
+      {
+        "output": "1",
+        "frequency": 150
+      },
+      {
+        "output": "2",
+        "frequency": 36
+      },
+      {
+        "output": "3",
+        "frequency": 40
+      },
+      {
+        "output": "4",
+        "frequency": 28
+      },
+      {
+        "output": "5",
+        "frequency": 38
+      },
+      {
+        "output": "6",
+        "frequency": 42
+      },
+      {
+        "output": "7",
+        "frequency": 50
+      },
+      {
+        "output": "8",
+        "frequency": 34
+      },
+      {
+        "output": "9",
+        "frequency": 66
+      },
+      {
+        "output": "10",
+        "frequency": 68
+      },
+      {
+        "output": "11",
+        "frequency": 42
+      },
+      {
+        "output": "12",
+        "frequency": 50
+      },
+      {
+        "output": "13",
+        "frequency": 64
+      },
+      {
+        "output": "14",
+        "frequency": 66
+      },
+      {
+        "output": "15",
+        "frequency": 68
+      },
+      {
+        "output": "16",
+        "frequency": 102
+      }
+    ]
+  },
+  {
+    "input": "7",
+    "bins": [
+      {
+        "output": "1",
+        "frequency": 120
+      },
+      {
+        "output": "2",
+        "frequency": 42
+      },
+      {
+        "output": "3",
+        "frequency": 44
+      },
+      {
+        "output": "4",
+        "frequency": 44
+      },
+      {
+        "output": "5",
+        "frequency": 40
+      },
+      {
+        "output": "6",
+        "frequency": 50
+      },
+      {
+        "output": "7",
+        "frequency": 52
+      },
+      {
+        "output": "8",
+        "frequency": 66
+      },
+      {
+        "output": "9",
+        "frequency": 40
+      },
+      {
+        "output": "10",
+        "frequency": 38
+      },
+      {
+        "output": "11",
+        "frequency": 62
+      },
+      {
+        "output": "12",
+        "frequency": 72
+      },
+      {
+        "output": "13",
+        "frequency": 74
+      },
+      {
+        "output": "14",
+        "frequency": 74
+      },
+      {
+        "output": "15",
+        "frequency": 48
+      },
+      {
+        "output": "16",
+        "frequency": 96
+      }
+    ]
+  },
+  {
+    "input": "8",
+    "bins": [
+      {
+        "output": "1",
+        "frequency": 128
+      },
+      {
+        "output": "2",
+        "frequency": 34
+      },
+      {
+        "output": "3",
+        "frequency": 30
+      },
+      {
+        "output": "4",
+        "frequency": 34
+      },
+      {
+        "output": "5",
+        "frequency": 58
+      },
+      {
+        "output": "6",
+        "frequency": 32
+      },
+      {
+        "output": "7",
+        "frequency": 56
+      },
+      {
+        "output": "8",
+        "frequency": 40
+      },
+      {
+        "output": "9",
+        "frequency": 42
+      },
+      {
+        "output": "10",
+        "frequency": 46
+      },
+      {
+        "output": "11",
+        "frequency": 32
+      },
+      {
+        "output": "12",
+        "frequency": 66
+      },
+      {
+        "output": "13",
+        "frequency": 54
+      },
+      {
+        "output": "14",
+        "frequency": 72
+      },
+      {
+        "output": "15",
+        "frequency": 58
+      },
+      {
+        "output": "16",
+        "frequency": 118
+      }
+    ]
+  },
+  {
+    "input": "9",
+    "bins": [
+      {
+        "output": "1",
+        "frequency": 160
+      },
+      {
+        "output": "2",
+        "frequency": 32
+      },
+      {
+        "output": "3",
+        "frequency": 30
+      },
+      {
+        "output": "4",
+        "frequency": 32
+      },
+      {
+        "output": "5",
+        "frequency": 26
+      },
+      {
+        "output": "6",
+        "frequency": 44
+      },
+      {
+        "output": "7",
+        "frequency": 38
+      },
+      {
+        "output": "8",
+        "frequency": 34
+      },
+      {
+        "output": "9",
+        "frequency": 34
+      },
+      {
+        "output": "10",
+        "frequency": 46
+      },
+      {
+        "output": "11",
+        "frequency": 50
+      },
+      {
+        "output": "12",
+        "frequency": 52
+      },
+      {
+        "output": "13",
+        "frequency": 70
+      },
+      {
+        "output": "14",
+        "frequency": 74
+      },
+      {
+        "output": "15",
+        "frequency": 70
+      },
+      {
+        "output": "16",
+        "frequency": 100
+      }
+    ]
+  },
+  {
+    "input": "10",
+    "bins": [
+      {
+        "output": "1",
+        "frequency": 122
+      },
+      {
+        "output": "2",
+        "frequency": 30
+      },
+      {
+        "output": "3",
+        "frequency": 36
+      },
+      {
+        "output": "4",
+        "frequency": 32
+      },
+      {
+        "output": "5",
+        "frequency": 48
+      },
+      {
+        "output": "6",
+        "frequency": 38
+      },
+      {
+        "output": "7",
+        "frequency": 58
+      },
+      {
+        "output": "8",
+        "frequency": 50
+      },
+      {
+        "output": "9",
+        "frequency": 44
+      },
+      {
+        "output": "10",
+        "frequency": 44
+      },
+      {
+        "output": "11",
+        "frequency": 40
+      },
+      {
+        "output": "12",
+        "frequency": 62
+      },
+      {
+        "output": "13",
+        "frequency": 76
+      },
+      {
+        "output": "14",
+        "frequency": 56
+      },
+      {
+        "output": "15",
+        "frequency": 78
+      },
+      {
+        "output": "16",
+        "frequency": 118
+      }
+    ]
+  },
+  {
+    "input": "11",
+    "bins": [
+      {
+        "output": "1",
+        "frequency": 88
+      },
+      {
+        "output": "2",
+        "frequency": 36
+      },
+      {
+        "output": "3",
+        "frequency": 34
+      },
+      {
+        "output": "4",
+        "frequency": 28
+      },
+      {
+        "output": "5",
+        "frequency": 42
+      },
+      {
+        "output": "6",
+        "frequency": 40
+      },
+      {
+        "output": "7",
+        "frequency": 40
+      },
+      {
+        "output": "8",
+        "frequency": 46
+      },
+      {
+        "output": "9",
+        "frequency": 40
+      },
+      {
+        "output": "10",
+        "frequency": 44
+      },
+      {
+        "output": "11",
+        "frequency": 54
+      },
+      {
+        "output": "12",
+        "frequency": 68
+      },
+      {
+        "output": "13",
+        "frequency": 74
+      },
+      {
+        "output": "14",
+        "frequency": 82
+      },
+      {
+        "output": "15",
+        "frequency": 66
+      },
+      {
+        "output": "16",
+        "frequency": 96
+      }
+    ]
+  },
+  {
+    "input": "12",
+    "bins": [
+      {
+        "output": "1",
+        "frequency": 54
+      },
+      {
+        "output": "2",
+        "frequency": 32
+      },
+      {
+        "output": "3",
+        "frequency": 32
+      },
+      {
+        "output": "4",
+        "frequency": 34
+      },
+      {
+        "output": "5",
+        "frequency": 40
+      },
+      {
+        "output": "6",
+        "frequency": 56
+      },
+      {
+        "output": "7",
+        "frequency": 76
+      },
+      {
+        "output": "8",
+        "frequency": 60
+      },
+      {
+        "output": "9",
+        "frequency": 54
+      },
+      {
+        "output": "10",
+        "frequency": 40
+      },
+      {
+        "output": "11",
+        "frequency": 54
+      },
+      {
+        "output": "12",
+        "frequency": 82
+      },
+      {
+        "output": "13",
+        "frequency": 92
+      },
+      {
+        "output": "14",
+        "frequency": 78
+      },
+      {
+        "output": "15",
+        "frequency": 64
+      },
+      {
+        "output": "16",
+        "frequency": 112
+      }
+    ]
+  },
+  {
+    "input": "13",
+    "bins": [
+      {
+        "output": "1",
+        "frequency": 96
+      },
+      {
+        "output": "2",
+        "frequency": 32
+      },
+      {
+        "output": "3",
+        "frequency": 46
+      },
+      {
+        "output": "4",
+        "frequency": 28
+      },
+      {
+        "output": "5",
+        "frequency": 26
+      },
+      {
+        "output": "6",
+        "frequency": 36
+      },
+      {
+        "output": "7",
+        "frequency": 36
+      },
+      {
+        "output": "8",
+        "frequency": 48
+      },
+      {
+        "output": "9",
+        "frequency": 44
+      },
+      {
+        "output": "10",
+        "frequency": 48
+      },
+      {
+        "output": "11",
+        "frequency": 50
+      },
+      {
+        "output": "12",
+        "frequency": 72
+      },
+      {
+        "output": "13",
+        "frequency": 74
+      },
+      {
+        "output": "14",
+        "frequency": 58
+      },
+      {
+        "output": "15",
+        "frequency": 64
+      },
+      {
+        "output": "16",
+        "frequency": 132
+      }
+    ]
+  },
+  {
+    "input": "14",
+    "bins": [
+      {
+        "output": "1",
+        "frequency": 92
+      },
+      {
+        "output": "2",
+        "frequency": 36
+      },
+      {
+        "output": "3",
+        "frequency": 40
+      },
+      {
+        "output": "4",
+        "frequency": 32
+      },
+      {
+        "output": "5",
+        "frequency": 30
+      },
+      {
+        "output": "6",
+        "frequency": 46
+      },
+      {
+        "output": "7",
+        "frequency": 54
+      },
+      {
+        "output": "8",
+        "frequency": 60
+      },
+      {
+        "output": "9",
+        "frequency": 60
+      },
+      {
+        "output": "10",
+        "frequency": 38
+      },
+      {
+        "output": "11",
+        "frequency": 38
+      },
+      {
+        "output": "12",
+        "frequency": 113
+      },
+      {
+        "output": "13",
+        "frequency": 70
+      },
+      {
+        "output": "14",
+        "frequency": 88
+      },
+      {
+        "output": "15",
+        "frequency": 40
+      },
+      {
+        "output": "16",
+        "frequency": 104
+      }
+    ]
+  },
+  {
+    "input": "15",
+    "bins": [
+      {
+        "output": "1",
+        "frequency": 76
+      },
+      {
+        "output": "2",
+        "frequency": 32
+      },
+      {
+        "output": "3",
+        "frequency": 44
+      },
+      {
+        "output": "4",
+        "frequency": 40
+      },
+      {
+        "output": "5",
+        "frequency": 28
+      },
+      {
+        "output": "6",
+        "frequency": 60
+      },
+      {
+        "output": "7",
+        "frequency": 58
+      },
+      {
+        "output": "8",
+        "frequency": 48
+      },
+      {
+        "output": "9",
+        "frequency": 40
+      },
+      {
+        "output": "10",
+        "frequency": 40
+      },
+      {
+        "output": "11",
+        "frequency": 50
+      },
+      {
+        "output": "12",
+        "frequency": 60
+      },
+      {
+        "output": "13",
+        "frequency": 80
+      },
+      {
+        "output": "14",
+        "frequency": 56
+      },
+      {
+        "output": "15",
+        "frequency": 88
+      },
+      {
+        "output": "16",
+        "frequency": 122
+      }
+    ]
+  }
+]

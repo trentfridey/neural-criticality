@@ -59,6 +59,13 @@ export const binaryStringToInt = (str) => {
   return Number.parseInt(str, 2);
 };
 
-export const genMessages = (nodes) => Array.from({ length: 2 ** nodes }, (x, i) =>
+export const genMessages = (nodes) => {
+  const countOnes = a => a.split('').map(i => Number.parseInt(i,10)).reduce((acc, curr) => acc + curr, 0)
+  const messages = Array.from({ length: Math.pow(2, nodes)}, (x, i) =>
         (i).toString(2).padStart(4, "0")
-      )
+      ).sort((a, b) => {
+        return countOnes(a) - countOnes(b) 
+      })
+  const inputMessages = messages.slice(1)
+  return { inputMessages, outputMessages: messages }  
+  }

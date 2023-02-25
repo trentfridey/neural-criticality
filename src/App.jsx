@@ -11,6 +11,7 @@ import {
 import { ParentSize } from '@visx/responsive';
 
 import Heatmap from './Heatmap';
+import LargeHeatmap from './LargeHeatmap';
 import Network from './Network';
 
 function App() {
@@ -92,7 +93,9 @@ function App() {
           and getting the output message <InlineMath>{"Y"}</InlineMath>.
           It's a measure of dependence between the input and the output.
           </p>
-
+          <div style={{display: 'flex', flexDirection: 'row'}}>
+            <LargeHeatmap height={500} width={500} label={<InlineMath>{'P(x,y)'}</InlineMath>}/>
+          </div>
           <p>
           On the other hand, <InlineMath>{"P(x)P(y)"}</InlineMath> is the probability that the output
           message is independent of the input message. From the formula, it
@@ -130,7 +133,7 @@ function App() {
         {({ width }) => (
           <>
             <Heatmap isRunning={isRunning} sigma={0.5} width={width / 4} height={width / 4} label={"Sub-critical"}/>
-            <Heatmap isRunning={isRunning} sigma={1.2} width={width / 4} height={width / 4} label={"Critical"}/>
+            <Heatmap isRunning={isRunning} sigma={1.3} width={width / 4} height={width / 4} label={"Critical"}/>
             <Heatmap isRunning={isRunning} sigma={3} width={width / 4} height={width / 4} label={"Super-critical"}/>
           </>
         )}

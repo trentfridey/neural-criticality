@@ -5,6 +5,7 @@ import {
   useState,
 } from 'react';
 
+import { interpolatePlasma } from 'd3-scale-chromatic';
 import { BlockMath } from 'react-katex';
 
 import {
@@ -12,7 +13,10 @@ import {
   AxisRight,
 } from '@visx/axis';
 import { HeatmapRect } from '@visx/heatmap';
-import { scaleLinear } from '@visx/scale';
+import {
+  scaleLinear,
+  scaleQuantize,
+} from '@visx/scale';
 
 import {
   binaryStringToInt,
@@ -27,13 +31,13 @@ export default function Heatmap({ sigma, width, height, label, isRunning }) {
 
   const nodes = 4;
 
-  const messages = genMessages(nodes);
+  const {inputMessages, outputMessages} = genMessages(nodes);
   const loopId = useRef(null)
   const [results, setResults] = useState(() => {
-    return messages.reduce(
+    return inputMessages.reduce(
       (acc, input) => ({
         ...acc,
-        [binaryStringToInt(input)]: messages.reduce(
+        [binaryStringToInt(input)]: outputMessages.reduce(
           (oacc, output) => ({
             ...oacc,
             [binaryStringToInt(output)]: 0,
@@ -54,6 +58,8 @@ export default function Heatmap({ sigma, width, height, label, isRunning }) {
     right: 40,
   };
 
+  const countOnes = a => a.toString(2).split('').filter(c => c === "1").length
+
   const xMax = width - margin.right;
   const yMax = height - margin.bottom;
 
@@ -63,14 +69,14 @@ export default function Heatmap({ sigma, width, height, label, isRunning }) {
       bins: Object.entries(value).map(([output, frequency]) => ({
         output: Number.parseInt(output),
         frequency: frequency || 0,
-      })),
+      })).sort((a, b) => countOnes(a.output) - countOnes(b.output)),
     };
-  });
+  }).sort((a,b) => countOnes(a.input) - countOnes(b.input));
 
   useEffect(() => {
     function simulate() {
       const result = run(
-        messages.at(Math.floor(Math.random() * messages.length)),
+        inputMessages.at(Math.floor(Math.random() * inputMessages.length)),
         3,
         sigma
       );
@@ -81,9 +87,8 @@ export default function Heatmap({ sigma, width, height, label, isRunning }) {
         newResults[input][output] += 1;
         return newResults;
       });
-      loopId.current = setTimeout(simulate, 100)
+      loopId.current = setTimeout(simulate, 1)
     }
-    console.log(isRunning)
     if (isRunning) loopId.current = setTimeout(simulate, 100)
     if (!isRunning) {
       clearTimeout(loopId.current)
@@ -98,40 +103,37 @@ export default function Heatmap({ sigma, width, height, label, isRunning }) {
   const yScale = xScale;
   yScale.range([yMax, margin.top]);
 
-  const cool2 = "#646cff";
-  const cool1 = "#242424";
-
-  const colorScale = scaleLinear({
-    range: [cool1, cool2],
-    domain: [0, Math.max(...data.flatMap((d) => d.bins.map(f)))],
+  const colorScale = scaleQuantize({
+    domain: [0, Math.max(...data.flatMap(d => d.bins.map(f)), 10)],
+    range: Array.from({length: 15}, (x, i) => interpolatePlasma(i/14))
   });
 
   const bWidth = 10;
 
   const mutualInformation = useMemo(() => {
     let norm = 0;
-    for (let input of messages) {
-      for (let output of messages) {
+    for (let input of inputMessages) {
+      for (let output of outputMessages) {
         norm += results[binaryStringToInt(input)][binaryStringToInt(output)];
       }
     }
     const probXY = (x, y) => results[x][y] / norm;
     const probX = (x) =>
-      messages.reduce(
+      outputMessages.reduce(
         (acc, curr) => acc + probXY(x, binaryStringToInt(curr)),
         0
       );
     const probY = (y) =>
-      messages.reduce(
+      inputMessages.reduce(
         (acc, curr) => acc + probXY(binaryStringToInt(curr), y),
         0
       );
     let p = 0;
     let m = 0;
-    for (let input of messages) {
+    for (let input of inputMessages) {
       const x = binaryStringToInt(input);
       if (probX(x) > 0) {
-        for (let output of messages) {
+        for (let output of outputMessages) {
           const y = binaryStringToInt(output);
           if (probXY(x, y) > 0) {
             m +=
